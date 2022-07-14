@@ -74,3 +74,16 @@ def multiply (*numbers):
         print(number)
 
 print(multiply(2,3,4,5))
+
+print("^^^^^^^^^^^^^^^^^")
+
+#xxargs(**args)
+
+def save_user(**user):
+    print(user)
+    print(user["id"])
+    print(user["name"])
+
+
+save_user( id = 1, name = "shruti", age = 22)
+
